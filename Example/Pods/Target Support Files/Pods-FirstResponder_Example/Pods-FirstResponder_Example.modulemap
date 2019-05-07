@@ -1,0 +1,6 @@
+framework module Pods_FirstResponder_Example {
+  umbrella header "Pods-FirstResponder_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

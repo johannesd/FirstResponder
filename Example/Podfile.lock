@@ -1,0 +1,16 @@
+PODS:
+  - FirstResponder (0.1.0)
+
+DEPENDENCIES:
+  - FirstResponder (from `../`)
+
+EXTERNAL SOURCES:
+  FirstResponder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FirstResponder: 160f6c4a4721b3bc91211ca0a2ae20fa5d19bfbb
+
+PODFILE CHECKSUM: d9f1e481e4f9a4592988444f807dbb5e80213f86
+
+COCOAPODS: 1.5.3

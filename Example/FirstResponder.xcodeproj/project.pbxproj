@@ -40,10 +40,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		67291B825ACBFA792B25A5F0 /* Pods-FirstResponder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstResponder_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstResponder_Tests/Pods-FirstResponder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		702C8CFC5B4122DC57775A81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8C3D49824F6F4C7520620FCA /* FirstResponder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FirstResponder.podspec; path = ../FirstResponder.podspec; sourceTree = "<group>"; };
+		702C8CFC5B4122DC57775A81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8C3D49824F6F4C7520620FCA /* FirstResponder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FirstResponder.podspec; path = ../FirstResponder.podspec; sourceTree = "<group>"; };
 		B92B838A3D4C07CC3B4BD21D /* Pods_FirstResponder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstResponder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C224AAB033618A860D3FAE5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C224AAB033618A860D3FAE5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D2025AA15BD9AEEED638A24F /* Pods-FirstResponder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstResponder_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstResponder_Tests/Pods-FirstResponder_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E3172193936F900CA230A22E /* Pods-FirstResponder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstResponder_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstResponder_Example/Pods-FirstResponder_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E3B39D00D22B01CC15443243 /* Pods-FirstResponder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstResponder_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstResponder_Example/Pods-FirstResponder_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = BHX8R35CB6;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = BHX8R35CB6;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -481,13 +483,14 @@
 			baseConfigurationReference = E3B39D00D22B01CC15443243 /* Pods-FirstResponder_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BHX8R35CB6;
 				INFOPLIST_FILE = FirstResponder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -496,13 +499,14 @@
 			baseConfigurationReference = E3172193936F900CA230A22E /* Pods-FirstResponder_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BHX8R35CB6;
 				INFOPLIST_FILE = FirstResponder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -510,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67291B825ACBFA792B25A5F0 /* Pods-FirstResponder_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = BHX8R35CB6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -523,7 +528,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstResponder_Example.app/FirstResponder_Example";
 			};
 			name = Debug;
@@ -532,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2025AA15BD9AEEED638A24F /* Pods-FirstResponder_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = BHX8R35CB6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -541,7 +547,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstResponder_Example.app/FirstResponder_Example";
 			};
 			name = Release;
